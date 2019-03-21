@@ -13,7 +13,7 @@ Code &amp; Images used on the presentation
 
 ### Quick View
 
-[Project #1](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_1.ino)
+[Project #1](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_1.ino) \
 [Project #2](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_2.ino)
 [Project #3](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_3.ino)
 [Project #4](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_4.ino)
