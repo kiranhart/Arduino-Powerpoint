@@ -19,7 +19,7 @@ Code &amp; Images used on the presentation
 [Project #4](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_4.ino) \
 [Project #5](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_5.ino) \
 [Project #6](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_6.ino) \
-[Project #7v1](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_7v2.ino) \
-[Project #7v2](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_1v1.ino) \
+[Project #7v1](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_7v1.ino) \
+[Project #7v2](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_7v2.ino) \
 [Project #8](https://github.com/kiranhart/Arduino-Powerpoint/blob/master/Code/Project_8.ino)
 
