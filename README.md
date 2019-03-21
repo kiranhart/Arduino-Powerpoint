@@ -13,4 +13,5 @@ Code &amp; Images used on the presentation
 
 ### Quick View
 
-test [project_heading] ("https://google.com")
+[Project #1](https://www.google.com)
+
