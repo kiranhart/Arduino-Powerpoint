@@ -2,7 +2,7 @@
 Code &amp; Images used on the presentation
 
 ### Projects
-- Project #1 - Blink and LED ON/OFF ("https://www.google.com")
+- Project #1 - Blink and LED ON/OFF
 - Project #2 - Fade an LED ON/OFF
 - Project #3 - Read a push button input
 - Project #4 - Turn an LED on usig a push button
@@ -10,3 +10,7 @@ Code &amp; Images used on the presentation
 - Project #6 - Ultrasonic sensor distance check
 - Project #7 - Binary Counter
 - Project #8 - IR Sensor (White/Black detection)
+
+### Quick View
+
+test [project_heading] ("https://google.com")
