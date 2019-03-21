@@ -1,7 +1,7 @@
 # Arduino-Powerpoint
 Code &amp; Images used on the presentation
 
-###Projects
+### Projects
 - Project #1 - Blink and LED ON/OFF
 - Project #2 - Fade an LED ON/OFF
 - Project #3 - Read a push button input
