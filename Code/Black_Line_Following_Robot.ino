@@ -19,7 +19,7 @@ const int RM2 = 12; // Right Motor #2
   connects to from the QTI IR Sensor.
 */
 int leftSensorPin = 2;
-int rightSensorPin = 3;
+int rightSensorPin = 4;
 
 void setup() {
   //Start the serial monitor so we can print
@@ -44,7 +44,7 @@ int getIRSensorValue(int sensorPin) {
   digitalWrite(sensorPin, HIGH);
   delay(1);
   //Discharge the capacitor
-  pinMode(2, INPUT);
+  pinMode(sensorPin, INPUT);
   digitalWrite(sensorPin, LOW);
   delay(1);
   return digitalRead(sensorPin);
@@ -72,22 +72,14 @@ void moveMotors(int leftSpeedOne, int leftSpeedTwo, int rightSpeedOne, int right
 void loop() {
   //Both of the sensors are detecting a white surface.
   if (getIRSensorValue(leftSensorPin) == 0 && getIRSensorValue(rightSensorPin) == 0) {
-    /*Move the motors forward, at a constant speed
-    The Right motor is slowed down to 90 because the left one in this case
-    is much slower at full speed compared to the right, causing it to drive at an angle. But if
-    both motors move at the same speed at 255, set it to 255*/
     moveMotors(255, 0, 90, 0);
   } else if (getIRSensorValue(leftSensorPin) == 1 && getIRSensorValue(rightSensorPin) == 0) {
     /*If the left sensor is detecting a black surface / line slow down the left wheel so that 
     the right one will be moving faster allowing the robot to turn left.*/
-    moveMotors(90, 0, 90, 0);
+    moveMotors(0, 0, 255, 0);
   } else if (getIRSensorValue(leftSensorPin) == 0 && getIRSensorValue(rightSensorPin) == 1) {
     /*If the right sensor is detecting a black surface / line slow down the right wheel so 
     the left one will be moving faster causing the robot to turn right*/
-    moveMotors(255, 0, 40, 0);
-  } else if (getIRSensorValue(leftSensorPin) == 1 && getIRSensorValue(rightSensorPin) == 1) {
-    /*In this case if both of the IR sensors are detecting a black surface / line then we should
-    just stop the robot from moving any more than it needs to.*/
-    moveMotors(0, 0, 0, 0);
+    moveMotors(255, 0, 0, 0);
   }
 }
