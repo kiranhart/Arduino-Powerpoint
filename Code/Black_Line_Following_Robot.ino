@@ -19,7 +19,7 @@ const int RM2 = 12; // Right Motor #2
   connects to from the QTI IR Sensor.
 */
 int leftSensorPin = 2;
-int rightSensorPin = 4;
+int rightSensorPin = 3;
 
 void setup() {
   //Start the serial monitor so we can print
